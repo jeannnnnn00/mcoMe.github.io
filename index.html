@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NWSSU – Northwest Samar State University</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="header-inner">
+      <div class="header-logo">
+        <div class="logo-circle">NWSSU</div>
+        <div>
+          <h1>Northwest Samar State University</h1>
+          <p>Excellence · Service · Leadership</p>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><button data-page="home" class="nav-btn active-nav">Home</button></li>
+      <li><button data-page="about" class="nav-btn">About</button></li>
+      <li><button data-page="classes" class="nav-btn">Classes</button></li>
+      <li><button data-page="contact" class="nav-btn">Contact</button></li>
+    </ul>
+  </nav>
+
+  <div class="container">
+    <aside>
+      <div class="aside-section">
+        <h3 class="aside-title">Side Menu</h3>
+        <ul>
+          <li><button data-page="schedule" class="side-btn">Schedule</button></li>
+          <li><button data-page="library" class="side-btn">Library</button></li>
+          <li><button data-page="events" class="side-btn">Events</button></li>
+          <li><button data-page="news" class="side-btn">News</button></li>
+          <li><button data-page="activities" class="side-btn">Activities</button></li>
+        </ul>
+      </div>
+      <div class="aside-section">
+        <h3 class="aside-title">Extra</h3>
+        <ul>
+          <li><button data-page="extra-activities" class="side-btn accent-btn">JS Practice</button></li>
+        </ul>
+      </div>
+    </aside>
+
+    <main>
+
+      <!-- HOME -->
+      <section id="home" class="page hidden">
+        <div class="page-hero">
+          <h2>Welcome to Northwest Samar State University</h2>
+        </div>
+      </section>
+
+      <!-- ABOUT -->
+      <section id="about" class="page hidden">
+        <div class="page-hero">
+          <h2>About Us</h2>
+          <p>Northwest Samar State University (NwSSU) began in 1912 as the Samar Trade School, offering vocational training to students. In 1959, it was converted into the Samar School of Arts and Trades (SSAT), expanding its programs to include courses like automotive technology, dressmaking, and carpentry, which helped strengthen the region’s workforce and economy.</p>
+        </div>
+      </section>
+
+      <!-- CLASSES -->
+      <section id="classes" class="page hidden">
+        <div class="page-hero">
+          <h2>Classes and Programs</h2>
+          <p>The university offers programs under seven colleges: the College of Computing, College of Education, College of Nursing, College of Engineering and Architecture, College of Criminal and Justices, College of Agriculture and Technology and College of Management, covering a wide range of undergraduate and graduate degrees.</p>
+        </div>
+      </section>
+
+      <!-- CONTACT -->
+      <section id="contact" class="page hidden">
+        <div class="page-hero">
+          <h2>Contact Us</h2>
+          <p>You may reach Northwest Samar State University at Calbayog City, Western Samar, Philippines 6710. For inquiries, call (055) 000-0000 or send an email to info@nssu.edu.ph. Office hours are Monday to Friday, 8:00 AM to 5:00 PM.</p>
+        </div>
+      </section>
+
+      <!-- SCHEDULE -->
+      <section id="schedule" class="page hidden">
+        <div class="page-hero">
+          <h2>Class Schedule</h2>
+          <p>The class schedule for the current semester is posted on the bulletin boards of each college. Students may also check their schedules through the Registrar's Office or their respective department heads.</p>
+        </div>
+      </section>
+
+      <!-- LIBRARY -->
+      <section id="library" class="page hidden">
+        <div class="page-hero">
+          <h2>University Library</h2>
+          <p>The NWSSU library is open Monday to Friday from 7:00 AM to 6:00 PM and Saturday from 8:00 AM to 5:00 PM. It provides access to printed books, academic journals, thesis, and digital resources to support student learning and research.</p>
+        </div>
+      </section>
+
+      <!-- EVENTS -->
+      <section id="events" class="page hidden">
+        <div class="page-hero">
+          <h2>Events</h2>
+          <p>NWSSU holds various events throughout the academic year including the University Foundation Day, Research Colloquium, Inter-College Sports Festival, and the Graduation Ceremony. Announcements are posted on the university bulletin boards and official social media pages.</p>
+        </div>
+      </section>
+
+      <!-- NEWS -->
+      <section id="news" class="page hidden">
+        <div class="page-hero">
+          <h2>Latest News</h2>
+          <p>Stay updated with the latest announcements and achievements of Northwest Samar State University. Recent highlights include topping the regional board exam results, opening a new Science Laboratory Building, and signing partnerships with technology companies for student internships and scholarships.</p>
+        </div>
+      </section>
+
+      <!-- OLD ACTIVITIES -->
+      <section id="activities" class="page hidden">
+        <div class="page-hero">
+          <h2>JavaScript Activities</h2>
+          <p>Basic JS exercises for practice.</p>
+        </div>
+        <div class="exercise-group">
+          <div class="entry activity"><h3>Activity 1: Alert</h3><button id="act1_btn">Show Alert</button></div>
+          <div class="entry activity"><h3>Activity 2: Variables</h3><button id="act2_btn">Show Sentence</button></div>
+          <div class="entry activity"><h3>Activity 3: Calculator</h3><button id="act3_btn">Run Calculator</button></div>
+          <div class="entry activity"><h3>Activity 4: User Input</h3><button id="act4_btn">Ask User</button></div>
+          <div class="entry activity"><h3>Activity 5: Conditional</h3><button id="act5_btn">Check Age</button></div>
+          <div class="entry activity"><h3>Activity 6: Loops</h3><button id="act6_btn">Run Loops</button></div>
+          <div class="entry activity"><h3>Activity 7: HTML Interaction</h3><button id="act7_btn">Click Me</button></div>
+        </div>
+      </section>
+
+      <!-- EXTRA ACTIVITIES -->
+      <section id="extra-activities" class="page hidden">
+        <div class="page-hero">
+          <h2>My Activity Part 2</h2>
+        </div>
+        <div class="exercise-group extra-group">
+          <div class="entry activity extra">
+            <h3>Activity 1: Change Background</h3>
+            <button id="bgBtn">Change Background</button>
+          </div>
+          <div class="entry activity extra">
+            <h3>Activity 2: Dark Mode Toggle</h3>
+            <button id="darkBtn">Toggle Dark Mode</button>
+          </div>
+          <div class="entry activity extra">
+            <h3>Activity 3: Add List Item</h3>
+            <button id="addItemBtn">Add Item</button>
+            <ul id="myList"><li>Item 1</li></ul>
+          </div>
+          <div class="entry activity extra">
+            <h3>Activity 4: Type & Remove Paragraph</h3>
+            <input type="text" id="paraInput" placeholder="Type your paragraph here...">
+            <p id="myPara" style="margin-top:8px; min-height:20px;"></p>
+            <button id="removeBtn">Remove Paragraph</button>
+          </div>
+          <div class="entry activity extra">
+            <h3>Activity 5: Character Counter</h3>
+            <input type="text" id="textInput" placeholder="Type here...">
+            <p style="margin-top:8px;">Characters: <span id="charCount">0</span></p>
+          </div>
+          <div class="entry activity extra">
+            <h3>Activity 6: Addition Calculator</h3>
+            <input type="number" id="num1" placeholder="First number">
+            <input type="number" id="num2" placeholder="Second number">
+            <button id="calcBtn">Add</button>
+            <p style="margin-top:8px;">Result: <span id="result"></span></p>
+          </div>
+          <div class="entry activity extra">
+            <h3>Activity 7: Change Image</h3>
+            <img id="myImage" src="image1.jpg" width="200" style="display:block; margin-bottom:8px;">
+            <button id="imgBtn">Change Image</button>
+          </div>
+          <div class="entry activity extra">
+            <h3>Activity 8: Mini To-Do List</h3>
+            <input type="text" id="todoInput" placeholder="New task">
+            <button id="addTodoBtn">Add Task</button>
+            <ul id="todoList" style="margin-top:8px; padding-left:0; list-style:none;"></ul>
+          </div>
+        </div>
+      </section>
+
+    </main>
+  </div>
+
+  <footer>
+    <div class="footer-inner">
+      <p><strong>Northwest Samar State University</strong></p>
+      <p>Calbayog City, Western Samar, Philippines 6710</p>
+      <p style="margin-top:8px; opacity:0.6;">© 2026 NSSU. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script src="extra.js"></script>
+  <script>
+    const buttons = document.querySelectorAll("[data-page]");
+    const pages = document.querySelectorAll(".page");
+    const navBtns = document.querySelectorAll(".nav-btn");
+
+    document.getElementById("home").classList.remove("hidden");
+
+    buttons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        const target = btn.getAttribute("data-page");
+        pages.forEach(p => p.classList.add("hidden"));
+        const section = document.getElementById(target);
+        if (section) section.classList.remove("hidden");
+        navBtns.forEach(b => b.classList.remove("active-nav"));
+        if (btn.classList.contains("nav-btn")) btn.classList.add("active-nav");
+      });
+    });
+  </script>
+</body>
+</html>
